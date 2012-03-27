@@ -1,5 +1,5 @@
 config:
   warnings: 5
   strings:
-    default_filtered: !@$&%
+    default_filtered: blorp
     kick: You have been kicked for inappropriate language.
