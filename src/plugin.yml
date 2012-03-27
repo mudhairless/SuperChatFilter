@@ -1,0 +1,14 @@
+name: SuperChatFilter
+main: net.owlbox.sirmud.SuperChatFilter.SuperChatFilter
+version: 0.5.0
+author: Ebben Feagan <ebben.feagan@gmail.com>
+database: false
+permissions:
+   SuperChatFilter.addfilter:
+   default: op
+commands:
+   addfilter:
+   description: Allows you to add a new word to be filtered.
+   usage: /addfilter <regex> [replacement]
+   permission: SuperChatFilter.addfilter
+   permission-message: You are not able to add additional chat filters.
