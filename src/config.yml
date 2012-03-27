@@ -2,4 +2,4 @@ config:
   warnings: 5
   strings:
     default_filtered: !@$&%
-    kick: You have been kicked for innapropriate language.
+    kick: You have been kicked for inappropriate language.
